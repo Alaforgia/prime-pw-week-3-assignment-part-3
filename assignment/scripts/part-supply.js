@@ -71,3 +71,14 @@ console.log("Total number of parts = " + total);
 //    no more boxes can be filled.
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
+let stashParts = 572;
+let box = 7;
+let boxesFilled = 0;
+while(stashParts > box) {
+  stashParts -= box
+  boxesFilled++;
+
+}
+
+  console.log(`${stashParts} parts left over`)
+  console.log(`${boxesFilled} boxes were filled` )
